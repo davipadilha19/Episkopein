@@ -1,0 +1,75 @@
+body {
+    height: 100vh;
+    background-image: url("../Images/midia2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente elegante */
+    width: 650px;
+    height: 750px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+#h1Login {
+    font-size: 35pt;
+    text-shadow: 0 0 5px #39ff14, 0 0 10px #39ff14;
+    font-style: italic;
+}
+
+#campos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 220px;
+}
+
+h2 {
+    font-size: 25pt;
+    margin-bottom: 15px;
+}
+
+.camposLogin {
+    height: 50px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #4b4b4b;
+    color: #fff;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    border: none;
+}
+
+#btnLogin {
+    width: 180px;
+    height: 55px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(156deg, rgba(0, 255, 8, 1) 0%, rgba(87, 197, 199, 1) 50%, rgba(255, 0, 234, 1) 100%);
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease
+}
+#btnLogin:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 255, 8, 0.7), 0 0 20px rgba(87, 197, 199, 0.7), 0 0 30px rgba(255, 0, 234, 0.7);
+}
+
+#btnLogin:active {
+    transform: scale(0.98);
+}

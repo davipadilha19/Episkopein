@@ -1,4 +1,4 @@
-# 🙌 Episkopein
+# 🙌 Episkopein (Em desenvolvimento)
 
 **Episkopein** (do grego ἐπισκοπεῖν – "vigiar", "supervisionar", "cuidar") é uma plataforma interna desenvolvida para organizar e fortalecer o trabalho dos departamentos da igreja. Com foco em escalas, comunicação e colaboração, o sistema visa trazer ordem e clareza para quem serve com dedicação no Reino de Deus.
 

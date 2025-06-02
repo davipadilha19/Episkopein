@@ -55,7 +55,7 @@ h2 {
     border: none;
 }
 
-#btnLogin {
+.btnLogin {
     width: 180px;
     height: 55px;
     border-radius: 20px;
@@ -65,11 +65,15 @@ h2 {
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease
 }
-#btnLogin:hover {
+.btnLogin:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 255, 8, 0.7), 0 0 20px rgba(87, 197, 199, 0.7), 0 0 30px rgba(255, 0, 234, 0.7);
 }
 
-#btnLogin:active {
+.btnLogin:active {
     transform: scale(0.98);
+}
+a{
+    text-decoration: none;
+    color: #fff;
 }

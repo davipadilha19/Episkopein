@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Assets/Styles/escalasStyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="escalas.html">Escalas</a>
+            <a href="chat.html">Chat</a>
+            <div id="perfilUsuario" onclick="BoxUser()"></div>
+            <!-- <a href="perfilUsuario.html"></a> -->
+        </nav>
+        <div id="box_user" class="hidden">
+         <a href="../Pages/userConfig.html">Perfil</a>
+         <a href="../Pages/configuracoes.html">Configurações</a>
+         <!-- <a href="../Pages/"></a> -->
+        </div>
+    </header>
+    
+    <header>
+  <!-- nav da home -->
+</header>
+
+<main id="paginaEscalas">
+    <div id="seletorMinisterio">
+      <label for="ministerio">Selecione o ministério:</label>
+      <select id="ministerio">
+        <option value="mida">Mídia</option>
+        <option value="louvor">Louvor</option>
+        <option value="infantil">Infantil</option>
+      </select>
+    </div>
+
+    <div id="calendario"></div>
+
+    <div id="detalhesEscala">
+      <h3>Detalhes da Escala</h3>
+      <p>Selecione um dia com escala.</p>
+    </div>
+  </main>
+
+<script src="../Assets/scripts/escalas.js"></script>
+<script src="../Assets/scripts/user.js"></script>
+</body>
+</html>

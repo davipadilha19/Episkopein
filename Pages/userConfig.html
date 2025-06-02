@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="../Assets/Styles/style.css">
+  <link rel="stylesheet" href="../Assets/Styles/userConfigStyle.css">
+  <title>Perfil do Usuário</title>
 </head>
 <body>
-    
+  <header>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="escalas.html">Escalas</a>
+      <a href="chat.html">Chat</a>
+    </nav>
+  </header>
+
+  <main id="perfilContainer">
+    <section id="perfilTopo">
+      <div id="fotoPerfil">
+        <img src="../Assets/Images/user.jpg" alt="Foto de Perfil" />
+      </div>
+      <div id="dadosUsuario">
+        <h2>Davi Emanuel</h2>
+        <p class="cargo">@violão_mídia</p>
+        <p class="bio">"Servindo com alegria no louvor e na mídia 🎶🎥"</p>
+        <a href="EditarPerfil.html"><button id="editarPerfil">Editar Perfil</button></a>
+      </div>
+    </section>
+
+    <section id="estatisticas">
+      <div class="cardEstatistica">
+        <h3>12</h3>
+        <p>Escalas</p>
+      </div>
+      <div class="cardEstatistica">
+        <h3>3</h3>
+        <p>Ministérios</p>
+      </div>
+      <div class="cardEstatistica">
+        <h3>8</h3>
+        <p>Mensagens</p>
+      </div>
+    </section>
+    <nav id="postTabs">
+  <button onclick="mostrarAba('All')">Todos</button>
+  <button onclick="mostrarAba('videos')">Vídeos</button>
+  <button onclick="mostrarAba('marcados')">Marcados</button>
+</nav>
+
+<div id="All" class="abaPost ativa">
+  <!-- Aqui você pode colocar os posts padrão -->
+  <div class="gridPost">
+    <div style="background-image: url('../Assets/Images/midia.png'); background-size: cover;"></div>
+</div>
+</div>
+<div id="videos" class="abaPost">
+  <!-- Aqui vão os vídeos -->
+  <div class="gridPost"></div>
+</div>
+<div id="marcados" class="abaPost">
+  <!-- Posts marcados -->
+  <div class="gridPost">
+    <div style="background-image: url('../Assets/Images/midia.png'); background-size: cover;"></div>
+'<div style="background-image: url('../Assets/Images/compartilhar materiais.png'); background-size: cover;"></div>
+
+  </div>
+</div>
+  </main>
+  <script src="../Assets/scripts/posts.js"></script>
 </body>
 </html>

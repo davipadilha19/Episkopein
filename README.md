@@ -24,13 +24,13 @@ Envie e visualize arquivos importantes, como letras, partituras, apresentações
 
 > Criar uma rede social interna e segura para os departamentos da igreja, promovendo excelência no serviço, comunhão entre os membros e centralização da comunicação.
 
-O projeto visa, inicialmente, atender três departamentos: **Mídia**, **Louvor** e **Recepção**, mas foi pensado de forma escalável para outros ministérios no futuro.
+O projeto visa, inicialmente, atender três departamentos: **Mídia**, **Louvor** e **Recepção**, mas foi pensado de forma escalável para outros ministérios no futuro, como Louvor, departamento infantil, Escola Biblica, entre outros.
 
 ---
 
 ## 🛠️ Tecnologias
 
-- **Frontend:** HTML, CSS, JavaScript *(possivelmente React ou outro framework)*
+- **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Node.js / Express *(em desenvolvimento)*
 - **Banco de dados:** MySQL
 - **Hospedagem:** AWS Free Tier
@@ -42,7 +42,8 @@ O projeto visa, inicialmente, atender três departamentos: **Mídia**, **Louvor*
 
 - `index.html` – Página inicial com carrossel de imagens e resumo das funcionalidades
 - `login.html` – Tela de login com autenticação segura
-- `home.html` – Painel principal com abas de Escalas, Departamento e Início (em breve)
+- `home.html` – Painel principal com abas de Escalas, Departamento e Início
+- `escalas.html` - Visualização de escalas com filtro de departamanto, visualizando detalhes de cada dia.
 
 ---
 
@@ -50,6 +51,8 @@ O projeto visa, inicialmente, atender três departamentos: **Mídia**, **Louvor*
 
 - [x] Estrutura inicial
 - [x] Página `index.html` quase finalizada
-- [x] Página `login.html` em fase de ajustes
-- [ ] Sistema de Escalas (prioridade)
-- [ ] Comunicação interna
+- [x] Página `login.html` quase finalizada
+- [x] Página `escalas.html` quase finalizada
+- [ ] Sistema de Escalas (prioridade, front-end quase finalizado)
+- [ ] Comunicação interna (Em Planejamento)
+- [ ] Postagem de fotos e Videos (Em planejamento)

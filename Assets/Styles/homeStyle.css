@@ -24,16 +24,15 @@ a:hover {
     transform: scale(1.2); /* 20% maior */
     text-shadow: 0 0 20px #00e1ff;
 }
-#perfilUsuario{
+.perfilUsuario{
     height: 8vh;
     width: 8vh;
     border-radius: 50%;
-    background-color: pink;
     transition: transform 0.3s ease; /* mais rápida e suave */
     cursor: pointer;
 }
 
-#perfilUsuario:hover {
+.perfilUsuario:hover {
     transform: scale(1.15); /* aumenta 10%, sem quebrar o layout */
 }
 #box_user {
